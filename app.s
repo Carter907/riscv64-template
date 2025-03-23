@@ -9,7 +9,8 @@ _start:
     li a2, 12
     li a7, 64
     ecall
-
+    
+exit:
     li a0, 0
     li a7, 93
     ecall
