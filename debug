@@ -1,0 +1,4 @@
+break _start
+target remote :8080
+continue
+info registers
