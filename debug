@@ -1,4 +1,5 @@
-break _start
+break exit
 target remote :8080
 continue
 info registers
+continue
