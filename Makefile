@@ -7,6 +7,9 @@ build:
 debug: clean build
 	qemu-riscv64 -g 8080 ./build/app & riscv64-elf-gdb --quiet ./build/app <debug
 
+run: clean build
+	./build/app
+
 clean:
 	rm -rf build
 
